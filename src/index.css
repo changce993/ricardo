@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+:root{
+  --color-black: #070D10;
+  --color-white: #F8F9FC;
+  --color-one: #FBE35D;
+  
+  --max-width: 1366px;
+  --min-width-tablet: 768px;
+  --min-width-cell: 480px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-white);
+  font-size: 16px;
+  _font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-family: 'Comfortaa', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+body::-webkit-scrollbar{
+  appearance: none;
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.general_container{
+  max-width: var(--max-width);
+  margin: 0 auto;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+  color: var(--color-black);
+}
+li{
+  list-style: none;
+}
+.d-flex{
+  display: flex;
+}
+.dot{
+  color: var(--color-one);
+}
+.display-4{
+  font-size: 3rem;
+}
+p{
+  line-height: 2rem;
+}

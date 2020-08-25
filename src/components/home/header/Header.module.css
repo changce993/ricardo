@@ -1,0 +1,66 @@
+.header{
+    background-image: url(/images/wave.svg);
+    background-size: cover;
+    background-position: bottom center;
+    min-height: 120vh;
+    justify-content: center;
+    align-items: center;
+}
+.header_container{
+    max-width: var(--max-width);
+    height: 100%;
+    padding: 5rem 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+.left , .right{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.left{
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.arrow{
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: .3rem var(--color-one) solid;
+  border-bottom: .3rem var(--color-one) solid;
+  cursor: pointer;
+  animation: arrow 2s infinite ease-in-out;
+  display: none;
+}
+@keyframes arrow{
+    50%{ transform: translateY(1rem) rotate(45deg);}
+}
+.img{
+    width: 80%;
+    margin: 5rem 10%;
+}
+
+@media(min-width: 769px){
+    .left, .right{
+        margin-top: -10rem;
+    }
+    .left{
+        height: 20rem;
+    }
+    .header_container{
+        padding: 5rem;
+        flex-direction: row;
+    }
+    .img{
+        margin: 0;
+    }
+    .arrow{
+        display: block;
+    }
+}

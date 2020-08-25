@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9618" height="8326.744" viewBox="0 0 9618 8326.744">
+  <defs>
+    <filter id="assorted-decors-with-brown-rack-inside-store-683039" x="0" y="0" width="9618" height="8326.744" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#ccc" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#assorted-decors-with-brown-rack-inside-store-683039)">
+    <path id="assorted-decors-with-brown-rack-inside-store-683039-2" data-name="assorted-decors-with-brown-rack-inside-store-683039" d="M0,1867.412l106.667-35.334c106.667-38,320-104.666,533.333-36,213.333,71.334,426.667,284.666,640,533.332,213.333,251.334,426.667,531.334,640,569.334,213.333,35.334,426.667-178,640-249.334,213.333-68.666,426.667-2,640,142.668,213.333,142,426.667,355.334,640,462s426.667,106.666,640,71.332c213.333-38,426.667-104.666,640-320,213.333-211.332,426.667-571.332,640-676,213.333-108.666,426.667,38,640,284.668s426.666,606.666,640,568.666c213.333-35.332,426.666-462,640-640,213.333-175.332,426.666-108.666,640,36,213.333,142,426.666,355.334,640,355.334s426.666-213.334,533.333-320L9600,2507.412l-.007-7469.646H0Z" transform="translate(9 4968.23)" fill="#fff"/>
+  </g>
+</svg>
